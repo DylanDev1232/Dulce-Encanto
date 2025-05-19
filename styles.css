@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  /* Degradado cálido tipo café */
+  background: linear-gradient(135deg, #3e2c27, #a47148);
+
+  /* Imagen de fondo con ambiente de café profesional */
+  background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Mezcla la imagen con el degradado para estilo moderno */
+  background-blend-mode: multiply;
+
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Enlace {
+    text-decoration: none;
+    color: white;
+    background-color: bisque;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.Enlace:hover {
+    background-color: white;
+    color: black;
+    transition: all 1.2s;
+    transform: scale(1.2);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.Imagen-Principal {
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.Imagen-Principal img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.Button-Ver-Mas {
+    font-size: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.Seccion-Menu {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;     /* Límite en pantallas grandes */
+    width: 90%;           /* Para que sea flexible en pantallas pequeñas */
+    margin: 150px auto;    /* Centrado y con espacio alrededor */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro translúcido */
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Seccion-Menu img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.Galeria {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;     /* Límite en pantallas grandes */
+    width: 90%;           /* Para que sea flexible en pantallas pequeñas */
+    margin: 150px auto;    /* Centrado y con espacio alrededor */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro translúcido */
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Galeria img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.Contacto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    color: blanchedalmond;
+}
+
+input {
+    display: flex;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.Redes-Sociales a {
+    text-decoration: none;
+    background-color: #a47148;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.Redes-Sociales a {
+    display: flex;
+    margin: 15px;
+}
+
+.Redes-Sociales a:hover {
+    background-color: white;
+    color: #a47148;
+    transition: all 2s;
+    transform: scale(1.2);
+}
